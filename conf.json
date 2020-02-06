@@ -1,0 +1,19 @@
+{
+    "service1": {
+        "path": "/api/v1/service1",
+        "replace": "/api/service1",
+        "target": "http://localhost:8088"
+    },
+    "service2": {
+        "path": "/api/v1/service2",
+        "replace": "/api/service2",
+        "target": "http://localhost:8081" 
+    },
+    "front": {
+        "target": "http://localhost:8080"
+    },
+    "dev": {
+        "target": "http://dev.yourhost.com.br/"
+    }    
+}
+
